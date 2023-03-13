@@ -1,0 +1,190 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  body{
+    font-family: 'Poppins', sans-serif;
+    margin:50px;
+
+  }
+#header{
+    display: inline-flex;
+}
+#item_div{
+    padding-top: 20px;
+    padding-left:350px;
+}
+.items{
+    padding: 30px;
+    font-size: 14px;
+    color: rgb(196,195,194);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.items:hover{
+    
+    text-decoration: underline solid #5243c0 3px;
+    line-height: 2px;
+    color: black;
+    font-weight: 500px;
+}
+
+#topbtn_div{
+    padding-top: 25px;
+    padding-left: 340px;   
+}
+#top_btn{
+    background-color: #FFD8DB;
+    color: #A389CC;
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+}
+#main_heading{
+    padding-top: 50px;
+    padding-left: 70px;
+    line-height: 2px;
+    position:absolute
+}
+.main_heading{
+    font-size: 450%;
+    font-weight: 980;
+    
+}
+.para27{
+    color:rgb(96, 95, 94);
+    position: absolute;
+    font-size: 15px;
+}
+.para28{
+    color:rgb(96, 95, 94);
+    position: absolute;
+    font-size: 15px;
+    padding-top:20px;
+}
+#main_btn{
+    padding: 20px 30px;
+    border-radius: 25px;
+    border:none;
+    background-color: #5243C0;
+    color: white;
+    cursor: pointer;
+}
+#New_Account{
+    display: inline-flex;
+    padding-left: 70px;
+    padding-top: 23%;
+    position: absolute;
+}
+#landing-section-image{
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 140px;
+    
+
+}
+
+
+main{
+    display: inline-flex;
+    margin: 0;
+}
+.card{
+    width:370px;
+    border: 1px solid rgb(251,251,251);
+    padding-left:30px;
+    display: inline-flex;
+    margin: 0px;
+    background-color: rgb(251,251,251);
+    border-radius: 10px;
+    margin:5px;
+    
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 10px 10px 30px 0px rgb(125, 115, 115);
+    cursor: pointer;
+}
+#table{
+   padding-top:470px;
+
+}
+
+.tick{
+  padding-top: 7px;
+  position:absolute;
+}
+.tick_hover{
+    position: absolute;
+    top:7px;
+    left:0;
+    display: none;
+}
+
+.tick:hover .tick_hover{
+    display:inline;
+}
+
+.text{
+   padding-left: 50px;
+   padding-top:13px;
+   font-size: 13px;
+}
+
+.user{
+   padding-left: 60px;
+   padding-top:7px;
+}
+
+.date{
+   padding-left: 20px;
+   padding-top:13px;
+   font-size: 13px;
+}
+.btn{
+   padding: 4px 10px;
+    background-color: #FED7DA;
+    border-radius: 5px;
+    border: none;
+}
+.btn_div{
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+.red{
+    padding: 4px 10px;
+    background-color:#FD6534;
+    border-radius: 5px;
+    border: none;
+}
+
+.user2{
+    padding-left: 44px;
+    padding-top:7px;
+}
+.green{
+    padding: 4px 10px;
+    background-color:#9ED095;
+    border-radius: 5px;
+    border: none;
+
+}
+.user3{
+    padding-left: 76px;
+    padding-top:7px;
+}
+.orange{
+    padding: 4px 10px;
+    background-color:#FFE4A0;
+    border-radius: 5px;
+    border: none;
+}
+.user4{
+    padding-left: 92px;
+    padding-top:7px;
+}
+#arrow{
+    cursor: pointer;
+}
